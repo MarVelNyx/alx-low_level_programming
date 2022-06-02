@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *  main - start
- *  
  *  Return:0 (Success)
  **/
 
