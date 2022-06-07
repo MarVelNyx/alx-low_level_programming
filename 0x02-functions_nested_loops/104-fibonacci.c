@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	int a, b, c, i;
+	int i;
+	long int a, b, c;
 
 	a = 1;
 	b = 2;
 
-	printf("%d, %d, ", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	for (i = 2; i < 98; i++)
 	{
@@ -20,9 +21,9 @@ int main(void)
 		a = b;
 		b = c;
 		if (i == 97)
-			printf("%d\n", c);
+			printf("%ld\n", c);
 		else
-			printf("%d, ", c);
+			printf("%ld, ", c);
 	}
 	return (0);
 }
