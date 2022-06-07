@@ -11,7 +11,8 @@ void print_times_table(int n)
 
 	if (n == 0)
 	{
-		putformat(n);
+		_putchar(n);
+		_putchar(' ');
 	}
 
 	if (n > 0 && n < 15)
