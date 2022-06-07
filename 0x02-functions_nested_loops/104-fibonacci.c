@@ -16,7 +16,9 @@ int main(void)
 
 	for (i = 2; i < 98; i++)
 	{
-		c = (i - 1) + (i - 2);
+		c = a + b;
+		a = b;
+		b = c;
 		if (i == 97)
 			printf("%d\n", c);
 		else
