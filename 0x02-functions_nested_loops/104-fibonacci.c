@@ -13,7 +13,7 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	printf("%lu, %lu, ", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	for (i = 2; i < 98; i++)
 	{
@@ -21,9 +21,9 @@ int main(void)
 		a = b;
 		b = c;
 		if (i == 97)
-			printf("%lu\n", c);
+			printf("%ld\n", c);
 		else
-			printf("%lu, ", c);
+			printf("%ld, ", c);
 	}
 	return (0);
 }
