@@ -4,7 +4,7 @@
  * print_line - function draws a straight line
  * followed by new line
  * @n: input integer
- * Retur: Nothing
+ * Return: Nothing
  */
 
 void print_line(int n)
@@ -16,5 +16,5 @@ void print_line(int n)
 		for (; i < n; i++)
 			_putchar('_');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
