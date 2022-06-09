@@ -11,9 +11,9 @@ int main(void)
 
 	for (; i < 12057; i += 2)
 	{
-		while (n % i == 0 && n != i)
-			n /= i;
+		while (num % i == 0 && num != i)
+			num /= i;
 	}
-	printf("%lu\n", n);
+	printf("%lu\n", num);
 	return (0);
 }
