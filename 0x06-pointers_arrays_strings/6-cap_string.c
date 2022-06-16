@@ -20,6 +20,7 @@ char *cap_string(char *s)
 
 		i++;
 	}
+
 	return (s);
 }
 
@@ -40,5 +41,6 @@ int check_separator(char c)
 		if (c == separator[i])
 			return (1);
 	}
+
 	return (0);
 }
