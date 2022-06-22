@@ -30,7 +30,7 @@ int _divisible(int num, int d)
 {
 	if (num % d == 0)
 		return (0);
-	if ( d == num/2)
+	if ( d == num / 2)
 		return (1);
 
 	return (_divisible(num, d + 1));
