@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_number - function prints numbers followed by new line
+ * print_number - function prints
+ * numbers followed by new line
  * @separator: input string
  * @n: number of parameters
  * @...: other parameters

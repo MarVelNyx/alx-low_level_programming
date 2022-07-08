@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * sum_the_all - function sums all parameters
+ * sum_the_all - function sums
+ * all parameters
  * @n: num of parameters
  * @...: other parameters
  * Return: sum of all parameters
