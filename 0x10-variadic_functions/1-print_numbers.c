@@ -7,7 +7,7 @@
  * @separator: input string
  * @n: number of parameters
  * @...: other parameters
- * Return: result
+ * Return: Nothing
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -20,12 +20,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (; i < n; i++)
 	{
 		num = va_arg(ap, int);
-		_putchar(num);
+		printf("%d", num);
 		if (separator == NULL)
 			continue;
 		if (i < n - 1)
-			_putchar(separator);
+			printf("%s", separator);
 	}
-	_putchar('\n');
+	printf("\n");
 	va_end(ap);
 }
